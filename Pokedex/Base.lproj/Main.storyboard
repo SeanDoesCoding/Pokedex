@@ -6,10 +6,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Pokemon Search View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Pokedex" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="PokemonSearchViewController" customModule="Pokedex" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -53,6 +53,12 @@
                             <constraint firstItem="mhV-YU-zVd" firstAttribute="top" secondItem="DsK-O6-Xq4" secondAttribute="bottom" constant="52" id="waW-Oa-ehv"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="abilityLabel" destination="cDQ-kx-C4U" id="8Xg-Tc-Hgn"/>
+                        <outlet property="idLabel" destination="mhV-YU-zVd" id="a0S-oM-dkb"/>
+                        <outlet property="nameLabel" destination="DsK-O6-Xq4" id="kuz-EG-lfT"/>
+                        <outlet property="searchBar" destination="vuM-di-XNa" id="HLY-qb-9Bs"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
