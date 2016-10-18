@@ -28,6 +28,15 @@ class PokemonSearchViewController: UIViewController, UISearchBarDelegate {
         
         
         // Fetch Pokemon details
+        PokemonController.fetchPokemon(for: searchTerm) { (pokemon) in
+            
+            DispatchQueue.main.async {
+                guard let pokemon = pokemon else { return }
+                
+                self.nameLabel.text = " Name: \(pokemon.name)"
+                self.idLabel.text = "ID: \(pokemon.id)"
+                self.abilityLabel.text = "Abilities: \(pokemon.abilities.joined(separator: ", "))"
+            }
     }
     
     
@@ -37,22 +46,4 @@ class PokemonSearchViewController: UIViewController, UISearchBarDelegate {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}

@@ -14,6 +14,7 @@
 		14AEC7091DB69C5100A77603 /* PokemonSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14AEC7081DB69C5100A77603 /* PokemonSearchViewController.swift */; };
 		14AEC70B1DB69EDE00A77603 /* NetworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14AEC70A1DB69EDE00A77603 /* NetworkController.swift */; };
 		14AEC70D1DB6A0B000A77603 /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14AEC70C1DB6A0B000A77603 /* Pokemon.swift */; };
+		14AEC70F1DB6B06D00A77603 /* PokemonController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14AEC70E1DB6B06D00A77603 /* PokemonController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		14AEC7081DB69C5100A77603 /* PokemonSearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PokemonSearchViewController.swift; path = ../PokemonSearchViewController.swift; sourceTree = "<group>"; };
 		14AEC70A1DB69EDE00A77603 /* NetworkController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkController.swift; sourceTree = "<group>"; };
 		14AEC70C1DB6A0B000A77603 /* Pokemon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
+		14AEC70E1DB6B06D00A77603 /* PokemonController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokemonController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				14AEC6F61DB6936100A77603 /* AppDelegate.swift */,
 				14AEC6FA1DB6936100A77603 /* Main.storyboard */,
 				14AEC70C1DB6A0B000A77603 /* Pokemon.swift */,
+				14AEC70E1DB6B06D00A77603 /* PokemonController.swift */,
 				14AEC7081DB69C5100A77603 /* PokemonSearchViewController.swift */,
 				14AEC70A1DB69EDE00A77603 /* NetworkController.swift */,
 				14AEC6FD1DB6936100A77603 /* Assets.xcassets */,
@@ -147,6 +150,7 @@
 				14AEC70D1DB6A0B000A77603 /* Pokemon.swift in Sources */,
 				14AEC6F71DB6936100A77603 /* AppDelegate.swift in Sources */,
 				14AEC70B1DB69EDE00A77603 /* NetworkController.swift in Sources */,
+				14AEC70F1DB6B06D00A77603 /* PokemonController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
